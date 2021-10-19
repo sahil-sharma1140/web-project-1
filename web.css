@@ -42,11 +42,14 @@ padding-top: 100px;
 padding-bottom: 0;
 }
 #headerID p{
-    color: aqua;
+    color: #fff;;
+    margin: 0 10em 0 10em;
+
 }
 .btn{
-    border: 1px solid #666;
-    background-color: #333;
+    border: 1px solid yellow;
+    background-color:skyblue;
+    color: white;
     padding: 1em;
 }
 .btn:hover{
@@ -80,4 +83,53 @@ padding-bottom: 0;
     background: #fff;
     color: #333;
     padding: 0px 4em 0px 4em;
+}
+#section-d{
+    display: flex;
+}
+#section-d .box{
+    padding: 1em;
+}
+#section-d .box:first-child{
+    background: rgb(96, 152, 224);
+}
+#footer{
+    display: flex;
+    background: black;
+    color:#fff;
+    padding: 5em;
+    
+}
+#footer div:last-child{
+    margin-left: auto;
+}
+
+/* This is for mobile Responsive */
+
+@media only screen and (max-width: 600px){
+    #section-b ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    }
+    #section-b li{
+        background: #fff;
+        color: #333;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    #section-d{
+        display: block;
+    }
+    #footer{
+        display: block;
+        background: black;
+        color:#fff;
+        padding: 2em;
+    }
+    #footer div:last-child{
+        margin-top: 2em;
+    }
 }
