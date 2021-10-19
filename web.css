@@ -47,14 +47,14 @@ padding-bottom: 0;
 
 }
 .btn{
-    border: 1px solid yellow;
-    background-color:skyblue;
-    color: white;
+    border: 2px solid black;
+    background-color:rgb(94, 194, 233);
+    color: black;
     padding: 1em;
 }
 .btn:hover{
     background: #fff;
-    color: #333;
+    color:tomato;
     cursor: pointer;
 }
 #section-a{
